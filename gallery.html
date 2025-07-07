@@ -6,30 +6,34 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
-  <h2>Our Special Memories 📸</h2>
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="photo1.jpg"><p>Magic Moment ✨</p></div>
-      <div class="swiper-slide"><img src="photo2.jpg"><p>Your smile = heaven 💕</p></div>
-      <div class="swiper-slide"><img src="photo3.jpg"><p>Forever us 💍</p></div>
+  <div class="container center">
+    <h2>Our Special Memories 📸</h2>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="photo1.jpg"><p>First picture you shared ❤️✨</p></div>
+        <div class="swiper-slide"><img src="photo2.jpg"><p>Second one with necklase</p></div>
+        <div class="swiper-slide"><img src="photo3.jpg"><p>this is without necklase but simplicity which i love the most ❤️</p></div>
+        <div class="swiper-slide"><img src="photo4.jpg"><p>One of my favorite in traditionls specially in saree 😍😍</p></div>
+        <div class="swiper-slide"><img src="photo5.jpg"><p>My forever favorite photo 💕</p></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+
+    <a href="music.html"><button style="margin-top: 30px;">🎶 Play Music</button></a>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     new Swiper(".swiper", {
       loop: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
+      autoplay: { delay: 3000, disableOnInteraction: false },
       pagination: { el: ".swiper-pagination" },
       navigation: {
         nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        prevEl: ".swiper-button-prev"
       },
     });
   </script>
